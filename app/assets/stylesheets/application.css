@@ -12,10 +12,13 @@ body {
   background-color: #f5f7fa;
 }
 
-.coach-card {
-  background-color: white;
-  padding: 32px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  max-width: 600px;
+.quote {
+  border-left: 5px solid #ddd;
+  padding: 12px 20px;
+  margin-bottom: 24px;
+  font-size: 1.1rem;
+}
+
+.quote-coach {
+  background-color: #ffffdd;
 }
