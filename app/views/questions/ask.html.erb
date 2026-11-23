@@ -1,5 +1,7 @@
-<form action="/answer" data-turbo="false">
-  <label for="question">Your question</label>
-  <input type="text" id="question" name="question">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container mt-5 coach-card">
+<p class="fs-3">Coach's Answer</p>
+
+<p>Your question: <%= @question %></p>
+<p>Coach's answer: <%= @answer %></p>
+<%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+</div>

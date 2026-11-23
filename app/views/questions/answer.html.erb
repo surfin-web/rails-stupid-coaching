@@ -1,3 +1,7 @@
-<p>Your question: <%= @question %></p>
-<p>Coach's answer: <%= @answer %></p>
-<%= link_to "Ask a new question", ask_path %>
+<div class="container mt-5 coach-card">
+<p class="fs-3">Coach's Answer</p>
+
+<p class="text-muted">Your question: <%= @question %></p>
+<p class="fs-4 fw-bold">Coach's answer: <%= @answer %></p>
+<%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+</div>
